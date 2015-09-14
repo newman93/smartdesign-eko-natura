@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Eko-Natura</title>
+  <link rel="stylesheet" href="css/style1.css" />
+  <link rel="stylesheet" href="css/formularz.css" type="text/css" />
+  <!--[if lt IE 8]>
+   <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+  <![endif]-->
+  <script>
+   $(function(){
+    $("#scroll-to-top").click(function(e){
+       e.preventDefault();
+       $('html, body').animate({scrollTop:0}, 1500);
+    });
+   });
+  </script>
+</head>
+<body>
+ <div id="up">
+  <div id="up1">
+  </div>
+  <div id="up2">
+  </div>
+  <div id="up3">
+  </div>
+ </div>
+ <header>
+  <aside id="top">
+   <a href="index.html">
+    <div id="logo">
+    </div>
+   </a>
+   <nav>
+    <ul>
+     <li><a href="index.html">Strona główna</a></li>
+	 <li><a href="zawartosc.html#akwarystyka">Akwarystyka</a></li>
+	 <li><a href="zawartosc.html#zoologia">Zoologia</a></li>
+	 <li><a href="zawartosc.html#wedkarstwo">Wędkarstwo</a></li>
+	 <li><a href="zawartosc.html#pszczelarstwo">Pszczelarstwo</a></li>
+	 <li><a href="galeria.html">Galeria</a></li>
+	 <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+   </nav>
+  </aside>
+ </header>
+ <div id="contact">
+  <div id="kontener">
+   <form action="#strona#" method="post" id="formularz">
+    <div>
+	 <label>Nick / Imię i nazwisko: <span class="red">*</span></label>
+	 <input type="text" id="nick" name="nick" value="#nick#" />
+	</div>
+	<div>
+	 <label>Adres e-mail: <span class="red">*</span></label>
+	 <input type="text" id="mail" name="mail" value="#mail#" />
+	</div>
+	<div>
+	 <label>Temat: <span class="red">*</span></label>
+	 <input type="text" id="temat" name="temat" value="#temat#" />
+	</div>
+	<div>
+	 <label>Treść: <span class="red">*</span></label>
+	 <textarea cols="27" rows="10" id="tresc" name="tresc" >#tresc#</textarea>
+	</div>
+	<div>
+	 <span class="red">*</span> - oznacza pola wymagane.
+	</div>
+	<div>
+	 <input type="submit" value="Wyślij" />
+	</div>
+   </form>
+  </div>
+  <div id="kon">
+   <div itemscope itemtype="http://schema.org/LocalBusiness">
+   <h2><span itemprop="name">Sklep zoologiczno - wędkarski, art. pszczelarskie</span></h2>
+   <h3>Dane kontaktowe:</h3>
+   <span itemprop="name">F.H.U. Eko-Natura</span></br>
+   <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+   <span itemprop="streetAddress">ul. Sienkiewicza 55</span></br>
+   <span itemprop="postalCode">28-500 </span><span itemprop="addressLocality">Kazimierza Wielka, </span><span itemprop="addressRegion">Świętokrzyskie</span></br>
+   </div>
+   Tel :<span itemprop="telephone">607-882-331</span></br>
+   </div>
+   <h3>Godziny otwarcia:</h3>
+   <span itemprop="openingHours">
+    PN.-PT. 9:00-17:00</br>
+    SB. 9:00-14:00</br> 
+    ND. Nieczynne</br>
+   </span>
+  </div>
+ </div>
+ <footer class="stopka">
+  F.H.U. Eko-Natura</br>
+  Autor: Nieznany
+ </footer>
+  <a href="#" title="Do góry!" id="scroll-to-top"><img src="images/t.png" alt="strzałka do góry" /></a>
+</body>
+</html>

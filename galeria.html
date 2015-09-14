@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Eko-Natura</title>
+  <link rel="stylesheet" href="css/style1.css" />
+  <link rel="stylesheet" id="camera-css"  href="css/camera.css" type="text/css" media="all"> 
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.mobile.customized.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.easing.1.3.js"></script> 
+  <script type="text/javascript" src="scripts/camera.min.js"></script> 
+  <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_3').camera({
+				height: '90%',
+				pagination: false,
+				thumbnails: true,
+				imagePath: 'images/slides'
+			});
+
+		});
+  </script>
+  <script>
+   $(function(){
+    $("#scroll-to-top").click(function(e){
+       e.preventDefault();
+       $('html, body').animate({scrollTop:0}, 1500);
+    });
+   });
+  </script>
+</head>
+<body>
+ <div id="up">
+  <div id="up1">
+  </div>
+  <div id="up2">
+  </div>
+  <div id="up3">
+  </div>
+ </div>
+ <header>
+  <aside id="top">
+   <a href='index.html'>
+    <div id="logo">
+    </div>
+   </a>
+   <nav>
+    <ul>
+     <li><a href="index.html">Strona główna</a></li>
+	 <li><a href="zawartosc.html#akwarystyka">Akwarystyka</a></li>
+	 <li><a href="zawartosc.html#zoologia">Zoologia</a></li>
+	 <li><a href="zawartosc.html#wedkarstwo">Wędkarstwo</a></li>
+	 <li><a href="zawartosc.html#pszczelarstwo">Pszczelarstwo</a></li>
+	 <li><a href="galeria.html">Galeria</a></li>
+	 <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+   </nav>
+  </aside>
+  </header>
+  <aside id="galeria">
+   <div class="fluid_container"><!-- #camera_wrap_1 -->
+    <div class="camera_wrap camera_emboss" id="camera_wrap_3">
+     <div data-thumb="images/grafika/thumbs/1.jpg" data-src="images/grafika/1.jpg">
+     </div>
+	 <div data-thumb="images/grafika/thumbs/2.jpg" data-src="images/grafika/2.jpg">
+     </div>
+     <div data-thumb="images/grafika/thumbs/3.jpg" data-src="images/grafika/3.jpg">
+     </div>
+     <div data-thumb="images/grafika/thumbs/4.jpg" data-src="images/grafika/4.jpg">
+     </div>
+     <div data-thumb="images/grafika/thumbs/5.jpg" data-src="images/grafika/5.jpg">
+     </div>
+	 <div data-thumb="images/grafika/thumbs/6.jpg" data-src="images/grafika/6.jpg">
+     </div>
+     <div data-thumb="images/grafika/thumbs/7.jpg" data-src="images/grafika/7.jpg">
+     </div>
+	 <div data-thumb="images/grafika/thumbs/8.jpg" data-src="images/grafika/8.jpg">
+     </div>
+	 <div data-thumb="images/grafika/thumbs/9.jpg" data-src="images/grafika/9.jpg">
+     </div>
+	 <div data-thumb="images/grafika/thumbs/10.jpg" data-src="images/grafika/10.jpg">
+     </div>
+	 <div data-thumb="images/grafika/thumbs/11.jpg" data-src="images/grafika/11.jpg">
+     </div>
+    </div><!-- #camera_wrap_1 -->
+   </div>
+   <div style="clear:both; display:block; height:10px"></div>
+  </aside>
+  <footer class="stopka">
+   F.H.U. Eko-Natura</br>
+   Autor: Nieznany
+  </footer>
+   <a href="#" title="Do góry!" id="scroll-to-top"><img src="images/t.png" alt="strzałka do góry" /></a>
+</body>
+</html>

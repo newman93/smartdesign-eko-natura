@@ -1,0 +1,58 @@
+
+
+a:focus { 
+	outline:none; /*usuwanie niebieskiej obwódki w FF*/
+}
+
+#kontener {
+float: left;
+padding-left: 15px;
+padding-top: 15px;
+}
+#kon{
+float: left;
+padding-top: 15px;
+padding-left: 200px;
+}
+
+
+#formularz {
+
+}
+
+#formularz div {
+
+}
+
+#formularz label {
+	display: block;
+}
+
+#formularz textarea {
+
+}
+
+#formularz input[type=text] {
+
+}
+
+#blad {
+	background: #ff0000;
+	padding: 10px;
+}
+
+#blad p{
+
+}
+
+#sukces {
+
+}
+
+#sukces p{
+
+}
+
+.red {
+	color: #ff0000;
+}
